@@ -1,0 +1,164 @@
+SYMB0100
+
+HEADER
+{
+ FREEID 1
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1580984785"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200, 200, 200, 200)
+  RECT (0, 0, 260, 120)
+ }
+
+ BODY
+ {
+  RECT 1, 0, 0
+  {
+   VARIABLES
+   {
+    #INITIAL_SB="1"
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20, 20, 240, 100)
+   OUTLINE 0,2,(58, 109, 165)
+   FILL (0, (243, 243, 243), 0)
+  }
+  PIN 2, 0, 0
+  {
+   COORD (0, 40)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #NAME="I0[23:0]"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 3, (0, 0, 128)
+    POINTS ((0, 0), (20, 0))
+   }
+  }
+  TEXT 3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (24, 24, 93, 56)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 2
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 1
+  }
+  PIN 4, 0, 0
+  {
+   COORD (0, 80)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #NAME="I1[23:0]"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 3, (0, 0, 128)
+    POINTS ((0, 0), (20, 0))
+   }
+  }
+  TEXT 5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (24, 64, 93, 96)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 4
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 1
+  }
+  PIN 6, 0, 0
+  {
+   COORD (120, 120)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #NAME="S"
+    #NUMBER="1"
+    #SIDE="bottom"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 1, (0, 0, 128)
+    POINTS ((0, 0), (0, -20))
+   }
+  }
+  TEXT 7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (112, 64, 129, 96)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 6
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 1
+  }
+  PIN 8, 0, 0
+  {
+   COORD (260, 60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #NAME="O[23:0]"
+    #NUMBER="1"
+    #SIDE="right"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 3, (0, 0, 128)
+    POINTS ((0, 0), (-20, 0))
+   }
+  }
+  TEXT 9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (169, 44, 236, 76)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 8
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 1
+  }
+  LINE 10, 0, 0
+  {
+   OUTLINE 0, 2, (58, 109, 165)
+   POINTS ((20, 20), (240, 60))
+   FILL (1, (0, 0, 0), 0)
+  }
+  LINE 11, 0, 0
+  {
+   OUTLINE 0, 2, (58, 109, 165)
+   POINTS ((240, 60), (20, 100))
+   FILL (1, (0, 0, 0), 0)
+  }
+ }
+}

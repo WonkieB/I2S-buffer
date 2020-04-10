@@ -1,0 +1,215 @@
+SYMB0100
+
+HEADER
+{
+ FREEID 1
+ VARIABLES
+ {
+  #DESCRIPTION=""
+  #LANGUAGE="VHDL"
+  #MODIFIED="1580957849"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200, 200, 200, 200)
+  RECT (0, 0, 360, 160)
+ }
+
+ BODY
+ {
+  RECT 1, 0, 0
+  {
+   VARIABLES
+   {
+    #INITIAL_SB="1"
+    #OUTLINE_FILLING="1"
+   }
+   AREA (20, 20, 340, 140)
+   OUTLINE 0,2,(58, 109, 165)
+   FILL (0, (243, 243, 243), 0)
+  }
+  PIN 2, 0, 0
+  {
+   COORD (0, 60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="Bus In"
+    #LENGTH="20"
+    #NAME="DATA[23:0]"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 3, (0, 0, 128)
+    POINTS ((0, 0), (20, 0))
+   }
+  }
+  TEXT 3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (24, 44, 124, 76)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 2
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 1
+  }
+  PIN 4, 0, 0
+  {
+   COORD (0, 100)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #NAME="CLK"
+    #NUMBER="1"
+    #SIDE="left"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 1, (0, 0, 128)
+    POINTS ((0, 0), (20, 0))
+   }
+   LINE 2, 0, 0
+   {
+    OUTLINE 0, 1, (0, 0, 128)
+    POINTS ((20, -10), (20, 10), (30, 0), (20, -10))
+   }
+  }
+  TEXT 5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (34, 84, 74, 116)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 4
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 1
+  }
+  PIN 6, 0, 0
+  {
+   COORD (160, 160)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="20"
+    #NAME="RESET"
+    #NUMBER="1"
+    #SIDE="bottom"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 1, (0, 0, 128)
+    POINTS ((0, 0), (0, -20))
+   }
+  }
+  TEXT 7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (130, 104, 190, 136)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 6
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 0
+  }
+  PIN 8, 0, 0
+  {
+   COORD (360, 40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Bus Out"
+    #LENGTH="20"
+    #NAME="RSLT[23:0]"
+    #NUMBER="1"
+    #SIDE="right"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 3, (0, 0, 128)
+    POINTS ((0, 0), (-20, 0))
+   }
+  }
+  TEXT 9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (235, 24, 336, 56)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 8
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 1
+  }
+  PIN 10, 0, 0
+  {
+   COORD (360, 80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="20"
+    #NAME="OUT_READY"
+    #NUMBER="1"
+    #SIDE="right"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 1, (0, 0, 128)
+    POINTS ((0, 0), (-20, 0))
+   }
+  }
+  TEXT 11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (216, 64, 336, 96)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 10
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 0
+  }
+  PIN 12, 0, 0
+  {
+   COORD (360, 120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="20"
+    #NAME="NEW_READY"
+    #NUMBER="1"
+    #SIDE="right"
+   }
+   LINE 1, 0, 0
+   {
+    OUTLINE 0, 1, (0, 0, 128)
+    POINTS ((0, 0), (-20, 0))
+   }
+  }
+  TEXT 13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (216, 104, 336, 136)
+   ALIGN 4
+   MARGINS (1, 1)
+   PARENT 12
+   ORIENTATION 1
+   FONT (8, 0, 0, 400, 0, 1, 0, "Arial")
+   UPDATE 0
+  }
+ }
+}
